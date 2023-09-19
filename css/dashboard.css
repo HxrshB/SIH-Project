@@ -62,7 +62,7 @@
     font-family: 'Inter', sans-serif;
     position: fixed;
     width: 22%;
-    left: 4%;
+    left: 11%;
     top: 275px;
     border-radius: 10px;
     padding-left: 20px;
@@ -90,7 +90,7 @@
     font-family: 'Inter', sans-serif;
     position: fixed;
     width: 22%;
-    left: 4%;
+    left: 8%;
     top: 375px;
     border-radius: 10px;
     padding-left: 20px;
@@ -113,7 +113,7 @@
     font-family: 'Inter', sans-serif;
     position: fixed;
     width: 22%;
-    left: 4%;
+    left: 5%;
     top: 475px;
     border-radius: 10px;
     padding-left: 20px;
@@ -133,7 +133,7 @@
     display: none;
     width: 250px;
     height: 200px;
-    background-color: #acaaaa;
+    background-color: #d5d5d5;
     position: absolute;
     top: 70px;
     opacity: 1;
@@ -151,6 +151,10 @@
     transition: all 250ms;
     border-bottom: 1px solid rgb(140, 139, 139);
 }
+a,
+a:visited{
+    text-decoration: none;
+}
 #bottom-drop{
     border: none;
 }
@@ -160,9 +164,11 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .image img{
-    position: absolute;
+    position: fixed;
     bottom: 100px;
-    right: 50px;
-    width: 500px;
-    height: 300px;
+    right: 25%;
+    bottom: 15%;
+    width: 350px;
+    height: 100px;
+    transform: scaleX(-1);
 }

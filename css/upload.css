@@ -180,13 +180,13 @@
     height: 50px;
     width: 350px;
     position: absolute;
-    left: 35%;
+    left: 30%;
     border: none;
     border-radius: 10px;
     font-size: 20px;
     background-color: #172AD3;
     color: rgb(207, 255, 255);
-    top: 50px;
+    top: 80px;
 }
 .btn:hover{
     background-color: rgb(100, 184, 184);
@@ -221,3 +221,13 @@
 
   }
   
+  #file-input {
+    display: none;
+  }
+  #upload-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+  }
